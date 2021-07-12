@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.util.StringJoiner;
 
 public class DateUtil {
-    public static String formatDuration(final Duration d) {
+    public static String formatDuration(Duration d) {
         final long days = d.toDays();
         d = d.minusDays(days);
         final long hours = d.toHours();
