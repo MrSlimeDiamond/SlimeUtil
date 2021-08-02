@@ -11,3 +11,17 @@ Expected output:
 ```
 1 hours, 5 minutes, 48 seconds
 ```
+## Add as dependency
+### Gradle
+Step 1: Add the repository
+```groovy
+    maven {
+        url "https://repo.zenoc.net/repository"
+    }
+```
+Step 2: Add to dependencies
+```groovy
+dependencies {
+  implementation 'io.github.mrslimediamond:slimeutil:1.0-SNAPSHOT'
+}
+```
