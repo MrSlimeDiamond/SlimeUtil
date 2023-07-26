@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "io.github.mrslimediamond.slimeutil"
+group = "net.slimediamond"
 version = "1.0-SNAPSHOT"
 
 repositories {
